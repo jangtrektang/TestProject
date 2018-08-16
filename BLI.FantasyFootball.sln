@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-Data", "05-Data", "{DD2D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06-Mapping", "06-Mapping", "{16DC405A-6978-456E-94F6-447F057CCD57}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BLI.FantasyFootball.Database", "BLI.FantasyFootball.Database\BLI.FantasyFootball.Database.sqlproj", "{5602D8EE-87C3-4B00-8F14-9F1E01E3743C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,12 +29,19 @@ Global
 		{E5429DE2-30DD-496A-B1A7-94E332BA5D3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5429DE2-30DD-496A-B1A7-94E332BA5D3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5429DE2-30DD-496A-B1A7-94E332BA5D3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5602D8EE-87C3-4B00-8F14-9F1E01E3743C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5602D8EE-87C3-4B00-8F14-9F1E01E3743C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5602D8EE-87C3-4B00-8F14-9F1E01E3743C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5602D8EE-87C3-4B00-8F14-9F1E01E3743C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5602D8EE-87C3-4B00-8F14-9F1E01E3743C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5602D8EE-87C3-4B00-8F14-9F1E01E3743C}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E5429DE2-30DD-496A-B1A7-94E332BA5D3C} = {0FB9DE60-A5A8-4E45-A26D-0DDDEA2FF0CD}
+		{5602D8EE-87C3-4B00-8F14-9F1E01E3743C} = {DD2D3F05-9C24-43A4-9B7B-3DA858520C96}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B103FBA4-355C-408A-A0BF-1ED2D41F5B75}
