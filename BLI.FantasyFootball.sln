@@ -5,6 +5,18 @@ VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLI.FantasyFootball.Api", "BLI.FantasyFootball.Api\BLI.FantasyFootball.Api.csproj", "{E5429DE2-30DD-496A-B1A7-94E332BA5D3C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Application", "01-Application", "{0FB9DE60-A5A8-4E45-A26D-0DDDEA2FF0CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Business", "02-Business", "{4B5036A5-788E-4F25-A5BD-19A027DE9437}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Repositories", "03-Repositories", "{8FF3E4F3-3FFC-48C2-BACA-039DF6ECE5A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-Domain", "04-Domain", "{EFFE00C0-B898-4D3F-936F-9E6FC5DCEF34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-Data", "05-Data", "{DD2D3F05-9C24-43A4-9B7B-3DA858520C96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06-Mapping", "06-Mapping", "{16DC405A-6978-456E-94F6-447F057CCD57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +30,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E5429DE2-30DD-496A-B1A7-94E332BA5D3C} = {0FB9DE60-A5A8-4E45-A26D-0DDDEA2FF0CD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B103FBA4-355C-408A-A0BF-1ED2D41F5B75}
